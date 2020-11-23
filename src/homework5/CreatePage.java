@@ -1,6 +1,9 @@
 package homework5;
 
-public class CreatePage extends BasePage{
+import homework6.Stories;
+import homework6.facebook.Games;
+
+public class CreatePage extends BasePage implements Games, Stories {
 
     // p means private and b is for business
     private char pageType = 'p';
@@ -19,4 +22,23 @@ public class CreatePage extends BasePage{
         super(serverUrl, "/pages/create/");
     }
 
+    @Override
+    public void playGame(String game, int countOfPlayers) {
+
+    }
+
+    @Override
+    public void addGameToFavouriteList(String game) {
+
+    }
+
+    @Override
+    public String createGame() {
+        return null;
+    }
+
+    @Override
+    public void chooseStoryOption() {
+
+    }
 }
