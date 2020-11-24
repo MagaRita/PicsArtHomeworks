@@ -1,8 +1,9 @@
 package homework6.picsart;
 
 import homework5.BasePage;
+import homework6.SocialWebPage;
 
-public class PicsArt extends BasePage implements PicsArtUser {
+public class PicsArt extends BasePage implements PicsArtUser, SocialWebPage {
 
     public PicsArt(String serverUrl, String pagePath) {
         super(serverUrl, "/explore");

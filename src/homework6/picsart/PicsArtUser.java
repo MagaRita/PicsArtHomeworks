@@ -2,7 +2,7 @@ package homework6.picsart;
 
 import homework6.SocialWebPage;
 
-public interface PicsArtUser extends SocialWebPage {
+public interface PicsArtUser {
 
     public void uploadPhoto(int photoID);
 
