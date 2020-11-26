@@ -1,4 +1,4 @@
-package homework7;
+package homework7.model;
 
 public class Student {
     private String firstName;
@@ -16,12 +16,8 @@ public class Student {
         this.mark = mark;
     }
 
-    public void printFullName(){
-        System.out.println("The full name is: " + firstName + " " + lastName);
-    }
-
     public void printStudentInfo(){
-        printFullName();
+        System.out.println("The full name is: " + firstName + " " + lastName);
         System.out.println("The student was born in " + year);
         System.out.println("The student is " + (gender=='m'?"male":"female"));
         System.out.println("The student mark is " + mark);

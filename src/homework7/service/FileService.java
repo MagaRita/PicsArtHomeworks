@@ -1,4 +1,4 @@
-package homework7;
+package homework7.service;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
