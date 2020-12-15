@@ -19,10 +19,9 @@ public class Test {
         System.out.println("------------------------------");
 
         String[] row = str.split(" ");
-        StudentService sc = new StudentService();
         Student[] student = new Student[row.length];
 
-        int updatedLength = sc.fillStudent(student,row);
+        int updatedLength = StudentService.fillStudent(student,row);
 
         System.out.println("-----------------------");
 

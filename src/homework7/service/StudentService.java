@@ -4,7 +4,7 @@ import homework7.model.Student;
 
 public class StudentService {
 
-    public int fillStudent(Student[] student, String[] row){
+    public static int fillStudent(Student[] student, String[] row){
 
         int defaultStudentMembers = 5;
         int index = 0;
